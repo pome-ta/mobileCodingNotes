@@ -4,6 +4,30 @@
 
 [holzschu/a-shell: A terminal for iOS, with multiple windows](https://github.com/holzschu/a-shell)
 
+### `pkg` コマンド
+
+```
+~/Documents/bin
+```
+
+bin ディレクトリがない場合は作成する
+
+`~/Documents` 上で
+
+```
+mkdir bin
+```
+
+```
+pkg install git
+```
+
+入ったかの確認は
+
+```
+pkg list
+```
+
 
 
 ## iSH
