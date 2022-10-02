@@ -54,6 +54,35 @@ zlib
 tzdata
 ```
 
+#### `add` したもの
+
+- zsh
+- python3
+- py3-pip
+- git
+- vim
+- nodejs
+- npm
+- neovim
+
+
+node : `v14.20.0` 
+
+動かない、v12 だと動いてた記事がある
+
+npm もだめかもね
+
+#### zsh にする
+
+dotfile 書く
+
+```
+apk add zsh
+```
+
+
+
+
 
 
 ## a-shell
