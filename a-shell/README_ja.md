@@ -6,6 +6,7 @@
 <a href="https://discord.gg/cvYnZm69Gy"><img src="https://img.shields.io/discord/935519150305050644?color=5865f2&label=Discord&style=flat" alt="Discord"/></a>
 </p>
 
+
 このプロジェクトの目標は、iOS でシンプルな Unix ライクな端末を提供することです。コマンドの解釈に [ios_system](https://github.com/holzschu/ios_system/) を使用し、[ios_system](https://github.com/holzschu/ios_system/) エコシステム (nslookup、 whois、python3、lua、pdflatex、lualatex...)
 
 このプロジェクトの目標は、iOS でシンプルな Unix ライクな端末を提供することです。コマンドの解釈に [ios_system](https://github.com/holzschu/ios_system/) を使用し、[ios_system](https://github.com/holzschu/ios_system/) エコシステム (nslookup、whois、python3、lua、pdflatex、lualatex...) からのすべてのコマンドが含まれています。
