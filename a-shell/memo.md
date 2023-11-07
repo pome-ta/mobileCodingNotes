@@ -5,7 +5,15 @@
 iOS を想定（iPadOS）は未確認
 
 
+
+
 ## 参照リンク
+
+- [GitHub - holzschu/a-shell: A terminal for iOS, with multiple windows](https://github.com/holzschu/a-shell)
+- [GitHub - holzschu/a-Shell-commands: shell commands, pre-compiled to webAssembly, ready to use in a-Shell](https://github.com/holzschu/a-Shell-commands)
+
+
+
 
 - [iPad(iOS)でa-Shellを利用してSSH設定を行う](https://zenn.dev/hashito/articles/e0c5fc0ca80a4e)
   - `env` で色々確認できるかも？
