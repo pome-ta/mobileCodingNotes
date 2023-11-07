@@ -16,4 +16,20 @@
 
 ## A guide for beginners
 
+> `python.rich`
 
+
+[美麗なコンソールアプリを手軽に作成 !richライブラリを使ってみた](https://zenn.dev/nano_sudo/articles/8a0e60cc24648a)
+
+
+
+```.console
+ping google.com -c 4
+```
+
+
+``` .console
+
+```
+
+[nslookup:DNSサーバーで名前解決 | 日経クロステック(xTECH)](https://xtech.nikkei.com/it/article/COLUMN/20131219/525897/)
