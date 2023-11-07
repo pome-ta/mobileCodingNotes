@@ -11,6 +11,7 @@ iOS を想定（iPadOS）は未確認
 
 - [GitHub - holzschu/a-shell: A terminal for iOS, with multiple windows](https://github.com/holzschu/a-shell)
 - [GitHub - holzschu/a-Shell-commands: shell commands, pre-compiled to webAssembly, ready to use in a-Shell](https://github.com/holzschu/a-Shell-commands)
+- [About the book - A guide to a-Shell](https://bianshen00009.gitbook.io/a-guide-to-a-shell/)
 
 
 
