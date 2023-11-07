@@ -20,3 +20,5 @@ iOS を想定（iPadOS）は未確認
   - `env` で色々確認できるかも？
 - [a-Shellアプリでgitコマンドを使用する方法 #Git - Qiita](https://qiita.com/7rikazhexde/items/a8d2cebdb57cc28a801a)
   - Git でコード管理するというより、Vim のPlugin 等々の操作想定 
+
+  
