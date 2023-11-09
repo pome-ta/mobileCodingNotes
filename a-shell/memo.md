@@ -1,3 +1,9 @@
+# 📝 2023/11/09
+
+[About the book - A guide to a-Shell](https://bianshen00009.gitbook.io/a-guide-to-a-shell/)
+
+読み進めてるけど、そろそろVim のPlugin 読み込みについて勉強かなぁ
+
 # 📝 2023/11/07
 
 ## a-shell 環境作り
