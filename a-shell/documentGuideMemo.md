@@ -353,3 +353,14 @@ arrow.right					systemAction		right
 # ] contextualmenu.and.cursorarrow
 
 ```
+
+
+[エスケープ, U+001B, 基本ラテン文字 (◕‿◕) SYMBL](https://symbl.cc/jp/001B/)
+
+
+# Configure the Shell
+
+
+[Configure the Shell - A guide to a-Shell](https://bianshen00009.gitbook.io/a-guide-to-a-shell/basic-tutorials/configure-the-shell)
+
+
