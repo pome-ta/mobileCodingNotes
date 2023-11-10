@@ -1,3 +1,26 @@
+# 📝 2023/11/10
+
+
+## 設定
+
+iPhone の設定内のa-Shell にて、keep ~ sessions みたいなのがあるけど
+
+プロンプトの設定が、反映したりされなかったりする
+
+
+## Vim
+
+
+手動でプラグインいれる
+
+
+`~/Documents/.vim/` から`pack/mypackages` と作っていって
+
+`start` と`opt` を作成
+
+ 
+   
+
 # 📝 2023/11/09
 
 [About the book - A guide to a-Shell](https://bianshen00009.gitbook.io/a-guide-to-a-shell/)

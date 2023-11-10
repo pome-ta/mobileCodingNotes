@@ -366,3 +366,31 @@ arrow.right					systemAction		right
 色々と設定しようとしたけど、前のセッションとか残ったり
 
 挙動が謎だから、様子見
+
+
+`.profile` に編集？
+
+
+注意:この機能はa-Shellのデフォルト・シェル(a-Shellが起動したときのシェル)にしか使えないが、dashには使えない。dashを実行すると、一連の奇妙なコードが表示されるだけです。
+
+> Attention this feature only works for a-Shell’s default shell (the one when a-Shell starts) but not for dash. When you run `dash`, you can only get a series of strange codes.
+
+
+
+## Configure lg2 for version controlling
+
+
+[Configure lg2 for version controlling - A guide to a-Shell](https://bianshen00009.gitbook.io/a-guide-to-a-shell/basic-tutorials/configure-lg2-for-version-controlling)
+
+ここは、一旦パス
+
+
+
+## Configure your Vim
+
+
+[Configure your Vim - A guide to a-Shell](https://bianshen00009.gitbook.io/a-guide-to-a-shell/basic-tutorials/configure-your-vim)
+
+
+
+`~/Documents/.vim/pack/mypackages` に`start` と、`opt` 作成
