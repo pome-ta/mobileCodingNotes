@@ -363,4 +363,6 @@ arrow.right					systemAction		right
 
 [Configure the Shell - A guide to a-Shell](https://bianshen00009.gitbook.io/a-guide-to-a-shell/basic-tutorials/configure-the-shell)
 
+色々と設定しようとしたけど、前のセッションとか残ったり
 
+挙動が謎だから、様子見
