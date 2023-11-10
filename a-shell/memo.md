@@ -19,6 +19,116 @@ iPhone の設定内のa-Shell にて、keep ~ sessions みたいなのがある�
 `start` と`opt` を作成
 
  
+ 
+``` .vimrc
+set encoding=utf-8
+scriptencoding utf-8
+syntax enable
+filetype plugin indent on
+
+
+hi clear
+syntax enable
+
+" Terminal 背景にする
+autocmd ColorScheme * highlight Normal ctermbg=none
+autocmd ColorScheme * highlight LineNr ctermbg=none
+colorscheme iceberg
+
+
+set number
+set clipboard+=unnamed
+set wrap
+set cursorline
+set noundofile
+set noswapfile
+set nobackup
+
+set tabstop=2
+set shiftwidth=2
+set smarttab
+" インデントを調整
+set smartindent
+
+
+"-----検索関連-----
+set incsearch " インクリメンタルサーチ
+set ignorecase " 大文字小文字の区別しない
+set smartcase " もし検索パターンに大文字があれば大文字小文字を区別する
+set hlsearch " 検索結果のハイライトする
+
+" Macのターミナルで全角記号の表示がずれる問題への対応
+set ambiwidth=double
+
+" 空白表示
+set list
+
+set listchars=tab:»-,trail:-,nbsp:%
+set listchars+=space:∙
+
+
+" #--- StatusLine 処理系
+"常に Status Line を表示する
+set laststatus=2
+
+" StatusLINE設定
+function! SetStatusLine()
+  if mode() =~ 'i'
+    let c = 1    "// カラー設定
+    let mode_name = 'I'
+  elseif mode() =~ 'n'
+    let c = 2     "// カラー設定
+    let mode_name = 'N'
+  elseif mode() =~ 'R'
+    let c = 3    "// カラー設定
+    let mode_name = 'R'
+  else
+    let c = 4    "// カラー設定
+    let mode_name = 'V'
+  endif
+  return '%' . c . '* [' . mode_name . '] %* %<%F%=%m%r %([%l/%L]%)%{strftime(" %m/%d_%H:%M ")}'
+endfunction
+set statusline=%!SetStatusLine()
+
+
+""hi User1 ctermfg=#53343b guifg=#cdd1e6
+""hi User2 ctermfg=#2a3158 guifg=#cdd1e6
+""hi User3 ctermfg=#3e445e guifg=#ccd1e6
+""hi User4 ctermfg=#384851 guifg=#cdd1e6
+
+" Insert 赤系
+hi User1 ctermfg=252 ctermbg=97
+" Normal 青系
+hi User2 ctermfg=252 ctermbg=24
+" Replace 橙系
+hi User3 ctermfg=252 ctermbg=95
+" Visual  緑系
+hi User4 ctermfg=252 ctermbg=30
+
+
+
+
+
+" カッコ自動補完
+inoremap { {}<LEFT>
+inoremap ( ()<LEFT>
+""inoremap < <><LEFT>
+inoremap [ []<LEFT>
+inoremap ' ''<LEFT>
+inoremap " ""<LEFT>
+inoremap ` ``<LEFT>
+inoremap 「 「」<LEFT>
+
+" 表示行単位で上下移動するように
+nnoremap j gj
+nnoremap k gk
+nnoremap <Down> gj
+nnoremap <Up>   gk
+" 逆に普通の行単位で移動したい時のために逆の map も設定しておく
+nnoremap gj j
+nnoremap gk k
+
+```
    
 
 # 📝 2023/11/09
