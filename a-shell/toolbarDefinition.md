@@ -1,4 +1,4 @@
-
+```
 # Customizable toolbar: 
 # Each button is defined by its icon (first column), the action to be executed when the button is clicked (second column) and a parameter for that action (third column).
 
@@ -68,3 +68,5 @@ arrow.right					systemAction		right
 #     italic				insertString		:s/\\%V.*\\%V./*&*\n
 #     strikethrough		insertString		:s/\\%V.*\\%V./\\~\\~&\\~\\~\n
 # ] contextualmenu.and.cursorarrow
+```
+
