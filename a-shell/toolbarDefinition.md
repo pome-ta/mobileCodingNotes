@@ -2,8 +2,13 @@
 # Customizable toolbar: 
 # Each button is defined by its icon (first column), the action to be executed when the button is clicked (second column) and a parameter for that action (third column).
 
+各ボタンは、そのアイコン(最初の列)、ボタンがクリックされたときに実行されるアクション(2番目の列)、およびそのアクションのパラメータ(3番目の列)によって定義されます。
+
 # Icons can be either the name of one of the SF Symbols from Apple: https://developer.apple.com/sf-symbols/ or a string of characters.
+アイコンは、AppleのSFシンボルの1つの名前(https://developer.apple.com/sf-symbols/)または文字列のいずれかです。
+
 # Action can be either "insertString", "systemAction" or "insertCommand"
+アクションは、「insertString」、「systemAction」、または「insertCommand」のいずれかです。
 
 # The effect of the parameter depends on the action:
 # - for insertString, it can be any string, and will be inserted when you type the button. 
