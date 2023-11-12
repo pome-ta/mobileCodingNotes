@@ -21,7 +21,6 @@
 [美麗なコンソールアプリを手軽に作成 !richライブラリを使ってみた](https://zenn.dev/nano_sudo/articles/8a0e60cc24648a)
 
 
-
 ```.console
 ping google.com -c 4
 ```
