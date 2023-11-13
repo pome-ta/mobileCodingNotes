@@ -11,9 +11,13 @@
 アクションは、「insertString」、「systemAction」、または「insertCommand」のいずれかです。
 
 # The effect of the parameter depends on the action:
+# パラメータの効果はアクションによって異なります。
 # - for insertString, it can be any string, and will be inserted when you type the button. 
+# - insertStringの場合、任意の文字列にすることができ、ボタンを入力すると挿入されます。
 #					  Strings can contain \n, so you can execute commands, even multiple commands.
+#                     文字列には\n を含めることができるので、複数のコマンドでもコマンドを実行できます。
 # - for systemAction, it can be any of: control, up, down, left, right, selectAll, cut, copy or paste.
+# - systemActionの場合、コントロール、アップ、ダウン、左、右、すべて選択、カット、コピー、ペーストのいずれかです。
 # - for insertCommand, it is a short command that will be executed when the button is pressed. 
 #					  The output of this command will be inserted at the cursor position
 
