@@ -1,3 +1,28 @@
+# 📝 2023/11/13
+
+
+```
+curl -fLo ~/Documents/.vim/pack/jetpack/opt/vim-jetpack/plugin/jetpack.vim --create-dirs https://raw.githubusercontent.com/tani/vim-jetpack/master/plugin/jetpack.vim
+```
+
+
+```
+Plug 'cocopon/iceberg.vim'
+```
+
+
+```
+Jetpack 'cocopon/iceberg.vim'
+```
+
+
+```
+  Sorry, you cannot run sh while another sh command is running
+
+```
+
+
+
 # 📝 2023/11/10
 
 
