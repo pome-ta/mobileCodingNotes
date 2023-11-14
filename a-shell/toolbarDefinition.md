@@ -1,3 +1,22 @@
+# Customizable toolbar: 
+
+ボタンは、そのアイコン(最初の列)、ボタンがクリックされたときに実行されるアクション(2番目の列)、およびそのアクションのパラメータ(3番目の列)によって定義されます。
+
+
+アイコンは、AppleのSFシンボルの1つの名前(https://developer.apple.com/sf-symbols/)または文字列のいずれかです。
+
+
+アクションは、`insertString` 、`systemAction` 、または`insertCommand` のいずれかです。
+
+
+
+パラメータの効果はアクションによって異なります。
+
+- `insertString` の場合、任意の文字列にすることができ、ボタンを入力すると挿入されます。
+  - 文字列には`\n`  を含めることができるので、複数のコマンドでもコマンドを実行できます。
+- `systemAction` の場合、コントロール、アップ、ダウン、左、右、すべて選択、カット、コピー、ペーストのいずれかです。
+  - 
+
 ```
 # Customizable toolbar: 
 # Each button is defined by its icon (first column), the action to be executed when the button is clicked (second column) and a parameter for that action (third column).
