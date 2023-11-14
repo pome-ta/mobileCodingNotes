@@ -1,15 +1,24 @@
 # Button icon				action				parameter
-arrow.right.to.line.alt		insertString		\u{0009}
-chevron.up.square			systemAction		control
-escape						insertString		\u{001B}
-doc.on.clipboard			systemAction		paste
+escape  insertString  \u{001B}
+chevron.up.square  systemAction  control
+arrow.right.to.line.alt  insertString  \u{0009}
+doc.on.clipboard  systemAction  paste
 
-separator
+[="none"
+  arrow.up  systemAction  up
+  arrow.down  systemAction  down
+  arrow.left  systemAction  left
+  arrow.right  systemAction  right
+]
 
-arrow.up					systemAction		up
-arrow.down					systemAction		down
-arrow.left					systemAction		left
-arrow.right					systemAction		right
+[="vim"
+  escape  insertString  \u{001B}
+  chevron.up.square  systemAction  control
+  arrow.right.to.line.alt  insertString  \u{0009}
+  doc.on.clipboard  systemAction  paste
+]
+
+
 
 # Example buttons:
 #
@@ -40,3 +49,4 @@ arrow.right					systemAction		right
 #     italic				insertString		:s/\\%V.*\\%V./*&*\n
 #     strikethrough		insertString		:s/\\%V.*\\%V./\\~\\~&\\~\\~\n
 # ] contextualmenu.and.cursorarrow
+
