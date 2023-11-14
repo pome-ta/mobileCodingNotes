@@ -3,7 +3,7 @@
 ボタンは、そのアイコン(最初の列)、ボタンがクリックされたときに実行されるアクション(2番目の列)、およびそのアクションのパラメータ(3番目の列)によって定義されます。
 
 
-アイコンは、AppleのSFシンボルの1つの名前(https://developer.apple.com/sf-symbols/)または文字列のいずれかです。
+アイコンは、AppleのSFシンボルの1つの名前（[https://developer.apple.com/sf-symbols/](https://developer.apple.com/sf-symbols/)）または文字列のいずれかです。
 
 
 アクションは、`insertString` 、`systemAction` 、または`insertCommand` のいずれかです。
