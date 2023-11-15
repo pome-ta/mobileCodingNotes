@@ -393,3 +393,22 @@ arrow.right					systemAction		right
 
 
 `~/Documents/.vim/pack/mypackages` に`start` と、`opt` 作成
+
+
+
+# Compile a simple command with a-Shell
+
+
+[Compile a simple command with a-Shell - A guide to a-Shell](https://bianshen00009.gitbook.io/a-guide-to-a-shell/lets-do-more-for-it/compile-a-simple-command-with-a-shell)
+
+
+## Meet make
+
+
+`make` をするための`makefile` を作る
+
+
+通常とa-shell とwasm で色々とあるから、気をつける
+
+
+
