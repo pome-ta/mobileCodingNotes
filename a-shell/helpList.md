@@ -1,364 +1,366 @@
-2to3
-2to3-3.11
-alias
-amstex
-apropos
-ar
-awk
-bc
-bibtex
-bokeh
-bookmark
-brave
-calc
-call
-cat
-cd
-chflags
-chmod
-cksum
-clang
-clang++
-clear
-compare
-composite
-compress
-config
-conjure
-convert
-corelist
-cowsay
-cp
-cpan
-credits
-cslatex
-csplain
-ctags
-curl
-cygdb
-cython
-cythonize
-dash
-date
-dc
-deactivate
-deletemark
-diff
-dig
-distro
-docutils
-downloadFile
-downloadFolder
-du
-dvilualatex
-dviluatex
-dvipdfmx
-ebong
-echo
-ed
-egrep
-enc2xs
-encguess
-env
-eplain
-etex
-euptex
-exit
-export
-f2py
-f2py3
-f2py3.11
-ffmpeg
-ffprobe
-fgrep
-file
-find
-fio
-firefox
-fits2bitmap
-fitscheck
-fitsdiff
-fitsheader
-fitsinfo
-fmtutil
-fmtutil-sys
-fonttools
-funzip.wasm
-git
-googlechrome
-grep
-gunzip
-gzip
-h2ph
-h2xs
-head
-help
-hideKeyboard
-hideToolbar
-history
-host
-id
-identify
-idle3
-idle3.11
-ifconfig
-import
-instmodsh
-internalbrowser
-ipython
-ipython3
-isympy
-jadetex
-jlpm
-jq
-jsc
-jsc_core
-jsi
-json_pp
-jsonpointer
-jsonschema
-jump
-jupyter
-jupyter-bundlerextension
-jupyter-console
-jupyter-contrib
-jupyter-dejavu
-jupyter-events
-jupyter-execute
-jupyter-kernel
-jupyter-kernelspec
-jupyter-lab
-jupyter-labextension
-jupyter-labhub
-jupyter-migrate
-jupyter-nbclassic
-jupyter-nbclassic-bundlerextension
-jupyter-nbclassic-extension
-jupyter-nbclassic-serverextension
-jupyter-nbconvert
-jupyter-nbextension
-jupyter-nbextensions_configurator
-jupyter-notebook
-jupyter-qtconsole
-jupyter-run
-jupyter-server
-jupyter-serverextension
-jupyter-troubleshoot
-jupyter-trust
-keepDirectoryAfterShortcut
-kpsewhich
-l4p-tmpl
-latex
-ld
-ld.lld
-ld64.lld
-less
-lessecho
-lex
-lg2
-libnetcfg
-link
-llc
-lld
-lld-link
-lli
-llvm-dis
-llvm-link
-ln
-ls
-lua
-luac
-luahbtex
-lualatex
-luatex
-magick-script
-make
-makeindex
-man
-mandoc
-mandocdb
-md5
-mercantile
-meson
-mex
-mkdir
-mktexfmt
-mktexlsr
-mllatex
-mltex
-mogrify
-montage
-more
-multimarkdown
-mv
-nc
-newWindow
-nltk
-normalizer
-nslookup
-open
-openurl
-opera
-opt
-pbcopy
-pbpaste
-pdfcslatex
-pdfcsplain
-pdfetex
-pdfjadetex
-pdflatex
-pdfmex
-pdftex
-pdfxmltex
-perl
-perl5
-perlbug
-perldoc
-perlivp
-pickFolder
-pico
-piconv
-ping
-ping6
-pip
-pip3
-pip3.11
-pkg
-pl2pm
-play
-pod2html
-printenv
-prove
-ptar
-ptardiff
-ptargrep
-pwd
-pybabel
-pybind11-config
-pydoc3
-pydoc3.11
-pyftmerge
-pyftsubset
-pygmentize
-pyjson5
-pyproj
-python
-python3
-python3-config
-python3.11
-python3.11-config
-python3.9
-qtpy
-ranlib
-readlink
-readtags
-rehash
-renamemark
-rio
-rlogin
-rm
-rmdir
-rst2html.py
-rst2html4.py
-rst2html5.py
-rst2latex.py
-rst2man.py
-rst2odt.py
-rst2odt_prepstyles.py
-rst2pseudoxml.py
-rst2s5.py
-rst2xetex.py
-rst2xml.py
-rstpep2html.py
-safari
-samp_hub
-say
-scp
-sed
-send2trash
-setenv
-sftp
-sh
-sha1
-sha256
-shasum
-showToolbar
-showmarks
-showtable
-sleep
-sort
-source
-splain
-ssh
-ssh-keygen
-stat
-stream
-streamzip
-stty
-sum
-sw_vers
-tail
-tar
-task
-tee
-telnet
-tex
-texlua
-texluac
-texsis
-text
-tlmgr
-touch
-tqdm
-tr
-tree
-true
-ttx
-type
-unalias
-uname
-uncompress
-uniq
-unlink
-unrar
-unsetenv
-unzip.wasm
-unzipsfx.wasm
-updmap
-updmap-sys
-uplatex
-uptex
-uptime
-utf8mex
-versioneer
-view
-vim
-volint
-wasm
-wasm-ld
-wc
-wcslint
-whatis
-wheel
-whoami
-whois
-wol
-wordcloud_cli
-wsdump
-xargs
-xcode-select
-xdvipdfmx
-xelatex
-xetex
-xmltex
-xsubpp
-xxd
-xz
-xzdec
-yandexbrowser
-z
-zip.wasm
-zipcloak.wasm
-zipdetails
-zipnote.wasm
-zipsplit.wasm
+# `help -l` 一覧
+
+- 2to3
+- 2to3-3.11
+- alias
+- amstex
+- apropos
+- ar
+- awk
+- bc
+- bibtex
+- bokeh
+- bookmark
+- brave
+- calc
+- call
+- cat
+- cd
+- chflags
+- chmod
+- cksum
+- clang
+- clang++
+- clear
+- compare
+- composite
+- compress
+- config
+- conjure
+- convert
+- corelist
+- cowsay
+- cp
+- cpan
+- credits
+- cslatex
+- csplain
+- ctags
+- curl
+- cygdb
+- cython
+- cythonize
+- dash
+- date
+- dc
+- deactivate
+- deletemark
+- diff
+- dig
+- distro
+- docutils
+- downloadFile
+- downloadFolder
+- du
+- dvilualatex
+- dviluatex
+- dvipdfmx
+- ebong
+- echo
+- ed
+- egrep
+- enc2xs
+- encguess
+- env
+- eplain
+- etex
+- euptex
+- exit
+- export
+- f2py
+- f2py3
+- f2py3.11
+- ffmpeg
+- ffprobe
+- fgrep
+- file
+- find
+- fio
+- firefox
+- fits2bitmap
+- fitscheck
+- fitsdiff
+- fitsheader
+- fitsinfo
+- fmtutil
+- fmtutil-sys
+- fonttools
+- funzip.wasm
+- git
+- googlechrome
+- grep
+- gunzip
+- gzip
+- h2ph
+- h2xs
+- head
+- help
+- hideKeyboard
+- hideToolbar
+- history
+- host
+- id
+- identify
+- idle3
+- idle3.11
+- ifconfig
+- import
+- instmodsh
+- internalbrowser
+- ipython
+- ipython3
+- isympy
+- jadetex
+- jlpm
+- jq
+- jsc
+- jsc_core
+- jsi
+- json_pp
+- jsonpointer
+- jsonschema
+- jump
+- jupyter
+- jupyter-bundlerextension
+- jupyter-console
+- jupyter-contrib
+- jupyter-dejavu
+- jupyter-events
+- jupyter-execute
+- jupyter-kernel
+- jupyter-kernelspec
+- jupyter-lab
+- jupyter-labextension
+- jupyter-labhub
+- jupyter-migrate
+- jupyter-nbclassic
+- jupyter-nbclassic-bundlerextension
+- jupyter-nbclassic-extension
+- jupyter-nbclassic-serverextension
+- jupyter-nbconvert
+- jupyter-nbextension
+- jupyter-nbextensions_configurator
+- jupyter-notebook
+- jupyter-qtconsole
+- jupyter-run
+- jupyter-server
+- jupyter-serverextension
+- jupyter-troubleshoot
+- jupyter-trust
+- keepDirectoryAfterShortcut
+- kpsewhich
+- l4p-tmpl
+- latex
+- ld
+- ld.lld
+- ld64.lld
+- less
+- lessecho
+- lex
+- lg2
+- libnetcfg
+- link
+- llc
+- lld
+- lld-link
+- lli
+- llvm-dis
+- llvm-link
+- ln
+- ls
+- lua
+- luac
+- luahbtex
+- lualatex
+- luatex
+- magick-script
+- make
+- makeindex
+- man
+- mandoc
+- mandocdb
+- md5
+- mercantile
+- meson
+- mex
+- mkdir
+- mktexfmt
+- mktexlsr
+- mllatex
+- mltex
+- mogrify
+- montage
+- more
+- multimarkdown
+- mv
+- nc
+- newWindow
+- nltk
+- normalizer
+- nslookup
+- open
+- openurl
+- opera
+- opt
+- pbcopy
+- pbpaste
+- pdfcslatex
+- pdfcsplain
+- pdfetex
+- pdfjadetex
+- pdflatex
+- pdfmex
+- pdftex
+- pdfxmltex
+- perl
+- perl5
+- perlbug
+- perldoc
+- perlivp
+- pickFolder
+- pico
+- piconv
+- ping
+- ping6
+- pip
+- pip3
+- pip3.11
+- pkg
+- pl2pm
+- play
+- pod2html
+- printenv
+- prove
+- ptar
+- ptardiff
+- ptargrep
+- pwd
+- pybabel
+- pybind11-config
+- pydoc3
+- pydoc3.11
+- pyftmerge
+- pyftsubset
+- pygmentize
+- pyjson5
+- pyproj
+- python
+- python3
+- python3-config
+- python3.11
+- python3.11-config
+- python3.9
+- qtpy
+- ranlib
+- readlink
+- readtags
+- rehash
+- renamemark
+- rio
+- rlogin
+- rm
+- rmdir
+- rst2html.py
+- rst2html4.py
+- rst2html5.py
+- rst2latex.py
+- rst2man.py
+- rst2odt.py
+- rst2odt_prepstyles.py
+- rst2pseudoxml.py
+- rst2s5.py
+- rst2xetex.py
+- rst2xml.py
+- rstpep2html.py
+- safari
+- samp_hub
+- say
+- scp
+- sed
+- send2trash
+- setenv
+- sftp
+- sh
+- sha1
+- sha256
+- shasum
+- showToolbar
+- showmarks
+- showtable
+- sleep
+- sort
+- source
+- splain
+- ssh
+- ssh-keygen
+- stat
+- stream
+- streamzip
+- stty
+- sum
+- sw_vers
+- tail
+- tar
+- task
+- tee
+- telnet
+- tex
+- texlua
+- texluac
+- texsis
+- text
+- tlmgr
+- touch
+- tqdm
+- tr
+- tree
+- true
+- ttx
+- type
+- unalias
+- uname
+- uncompress
+- uniq
+- unlink
+- unrar
+- unsetenv
+- unzip.wasm
+- unzipsfx.wasm
+- updmap
+- updmap-sys
+- uplatex
+- uptex
+- uptime
+- utf8mex
+- versioneer
+- view
+- vim
+- volint
+- wasm
+- wasm-ld
+- wc
+- wcslint
+- whatis
+- wheel
+- whoami
+- whois
+- wol
+- wordcloud_cli
+- wsdump
+- xargs
+- xcode-select
+- xdvipdfmx
+- xelatex
+- xetex
+- xmltex
+- xsubpp
+- xxd
+- xz
+- xzdec
+- yandexbrowser
+- z
+- zip.wasm
+- zipcloak.wasm
+- zipdetails
+- zipnote.wasm
+- zipsplit.wasm
