@@ -1,4 +1,6 @@
-.
+```
+
+.
 ├── Application Support
 │   └── sunpy
 │       └── sunpyrc
@@ -1484,3 +1486,4 @@
             └── undefined-symbols.txt
 
 226 directories, 1257 files
+```
