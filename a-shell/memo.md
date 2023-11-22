@@ -1,6 +1,9 @@
 # 📝 2023/11/22
 
 
+[GitHub - kkk669/dotfiles](https://github.com/kkk669/dotfiles)
+
+
 ```
 export PS1='$(echo "\\033[48;2;76;86;106m") $PWD $(echo "\\033[m\\033[38;2;76;86;106m\\033[m ")'
 
