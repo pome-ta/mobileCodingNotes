@@ -11,6 +11,10 @@
 
 `.vimrc` のお作法的な方寄りかしら？
 
+[GitHub - vim-jp/reading-vimrc: vimrc読書会まとめ](https://github.com/vim-jp/reading-vimrc)
+
+見ていきたい
+
 #### LSP
 
 なるべくvanilla での載っけ方
