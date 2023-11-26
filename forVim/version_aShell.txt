@@ -1,0 +1,83 @@
+
+
+
+VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Apr 21 2023 21:13:26)
+macOS version - arm64
+Included patches: 1-5172
+Compiled by holzschu@MacBook-Pro-5.local
+Big version without GUI.
+  Features included (+) or not (-):
++acl               -mouse_sysmouse
++arabic            +mouse_urxvt
++autocmd           +mouse_xterm
++autochdir         +multi_byte
+-autoservername    +multi_lang
+-balloon_eval      -mzscheme
+-balloon_eval_term +netbeans_intg
+-browse            +num64
+++builtin_terms    +packages
++byte_offset       +path_extra
++channel           -perl
++cindent           +persistent_undo
+-clientserver      +popupwin
++clipboard         +postscript
++cmdline_compl     +printer
++cmdline_hist      -profile
++cmdline_info      -python
++comments          +python3/dyn
++conceal           +quickfix
++cryptv            +reltime
+-cscope            +rightleft
++cursorbind        -ruby
++cursorshape       +scrollbind
++dialog_con        +signs
++diff              +smartindent
++digraphs          -sodium
+-dnd               -sound
+-ebcdic            +spell
++emacs_tags        +startuptime
++eval              +statusline
++ex_extra          -sun_workshop
++extra_search      +syntax
+-farsi             +tag_binary
++file_in_path      -tag_old_static
++find_in_path      -tag_any_white
++float             -tcl
++folding           +termguicolors
+-footer            -terminal
++fork()            -terminfo
+-gettext           +termresponse
+-hangul_input      +textobjects
++iconv             +textprop
++insert_expand     +timers
++ipv6              +title
++job               -toolbar
++jumplist          +user_commands
++keymap            +vartabs
++lambda            +vertsplit
++langmap           +vim9script
++libcall           +viminfo
++linebreak         +virtualedit
++lispindent        +visual
++listcmds          +visualextra
++localmap          +vreplace
++lua               +wildignore
++menu              +wildmenu
++mksession         +windows
++modify_fname      +writebackup
++mouse             -X11
+-mouseshape        -xfontset
++mouse_dec         -xim
+-mouse_gpm         -xpm
+-mouse_jsbterm     -xsmp
++mouse_netterm     -xterm_clipboard
++mouse_sgr         +xterm_save
+   system vimrc file: "$VIM/vimrc"
+     user vimrc file: "$HOME/Documents/.vimrc"
+ 2nd user vimrc file: "~/Documents/.vim/vimrc"
+      user exrc file: "$HOME/Documents/.exrc"
+       defaults file: "$VIMRUNTIME/defaults.vim
+"
+  fall-back for $VIM: "/usr/local/share/vim"
+Compilation: clang -c -I. -Iproto -DHAVE_CONFIG_H -DEXITFREE -arch arm64 -O2 -miphoneos-version-min=14.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -DDYNAMIC_PYTHON3 -DMACOS_X -DMACOS_X_DARWIN -DEXITFREE -arch arm64 -O2 -miphoneos-version-min=14.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -fembed-bitcode -DDYNAMIC_PYTHON3 -D_REENTRANT -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 
+Linking: clang -shared -arch arm64 -O2 -miphoneos-version-min=14.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -F/Users/holzschu/src/Xcode_iPad/vim/Frameworks -framework ios_system -o vim -F ../Frameworks -framework ios_system -lm -lncurses -liconv -framework UIKit -lobjc -framework Foundation -framework lua_ios -F../Frameworks -framework lua_ios -L/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/config-3.7m-darwin -lpython3.7m -framework CoreFoundation 

@@ -1,0 +1,81 @@
+
+
+
+VIM - Vi IMproved 8.1 (2018 May 18, compiled Jun  6 2023 16:17:19)
+iVim 2.55(4)
+Included patches: 1-2110
+Modified by Boogaloo
+Huge version with iOS GUI.
+  Features included (+) or not (-):
++acl               +mouse_sgr
++arabic            -mouse_sysmouse
++autocmd           +mouse_urxvt
++autochdir         +mouse_xterm
+-autoservername    +multi_byte
+-balloon_eval      +multi_lang
+-balloon_eval_term -mzscheme
++browse            -netbeans_intg
+++builtin_terms    -num64
++byte_offset       +packages
++channel           +path_extra
++cindent           -perl
+-clientserver      +persistent_undo
++clipboard         +postscript
++cmdline_compl     +printer
++cmdline_hist      +profile
++cmdline_info      -python
++comments          +python3/dyn
++conceal           +quickfix
++cryptv            +reltime
+-cscope            +rightleft
++cursorbind        -ruby
++cursorshape       +scrollbind
++dialog_con_gui    +signs
++diff              +smartindent
++digraphs          -sound
+-dnd               +spell
+-ebcdic            +startuptime
++emacs_tags        +statusline
++eval              -sun_workshop
++ex_extra          +syntax
++extra_search      +tag_binary
+-farsi             -tag_old_static
++file_in_path      -tag_any_white
++find_in_path      -tcl
++float             +termguicolors
++folding           +terminal
+-footer            -terminfo
++fork()            -termresponse
+-gettext           +textobjects
+-hangul_input      +textprop
+-iconv             +timers
++insert_expand     +title
++job               -toolbar
++jumplist          +user_commands
++keymap            +vartabs
++lambda            +vertsplit
++langmap           +virtualedit
+-libcall           +visual
++linebreak         +visualextra
++lispindent        +viminfo
++listcmds          +vreplace
++localmap          +wildignore
++lua/dyn           +wildmenu
++menu              +windows
++mksession         +writebackup
++modify_fname      -X11
++mouse             -xfontset
+-mouseshape        -xim
++mouse_dec         -xpm
+-mouse_gpm         -xsmp
+-mouse_jsbterm     -xterm_clipboard
++mouse_netterm     -xterm_save
+   system vimrc file: "$VIM/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+  system gvimrc file: "$VIM/gvimrc"
+    user gvimrc file: "$HOME/.gvimrc"
+2nd user gvimrc file: "~/.vim/gvimrc"
+       defaults file: "$VIMRUNTIME/defaults.vim"
+    system menu file: "$VIMRUNTIME/menu.vim"
