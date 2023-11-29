@@ -27,6 +27,8 @@ set listchars+=space:∙
 " ディレクトリ候補表示
 set wildmenu
 
+
+" jetpack はまだ先かなぁ
 "curl -fLo $HOME/Documents/.vim/pack/jetpack/opt/vim-jetpack/plugin/jetpack.vim --create-dirs https://raw.githubusercontent.com/tani/vim-jetpack/master/plugin/jetpack.vim
 
 
@@ -47,5 +49,6 @@ for name in jetpack#names()
     break
   endif
 endfor
+
 
 
